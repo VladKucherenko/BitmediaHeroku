@@ -38,7 +38,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 
-app.use('/bitmedia', router)
+app.use('', router)
 
 app.use(function (err, req, res, next) {
     // console.error(err.stack)
