@@ -1,0 +1,109 @@
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import './../../variables.scss';
+
+.breadcrams{
+    padding: $primary-padding;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    a{
+        color: #CCCCCC;
+    }
+    color: #3A80BA;
+}
+
+.fullName{
+    padding: $primary-padding;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1A1A1A;
+}
+.dataPickerBox{
+    text-align: center;
+    .dataPicker{
+        border: 3px solid #3A80BA;
+        border-radius: 50px;
+        cursor: pointer;
+        padding: 5px;
+        width: 25%;
+    }
+}
+
+.diagrams{
+    padding: $primary-padding;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) { 
+    .breadcrams{
+        padding: $primary-padding-small;
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .fullName{
+        font-size: 25px;
+        padding: $primary-padding-small;
+    }
+    .dataPickerBox{
+        .dataPicker{
+            width: 70%;
+        }
+    }
+    .diagrams{
+        padding: $primary-padding-small;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 481px) and (max-width: 576px ) { 
+    .breadcrams{
+        padding: $primary-padding-small;
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .fullName{
+        font-size: 25px;
+        padding: $primary-padding-small;
+    }
+    .dataPickerBox{
+        .dataPicker{
+            width: 70%;
+        }
+    }
+    .diagrams{
+        padding: $primary-padding-small;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) { 
+    .dataPickerBox{
+        .dataPicker{
+            width: 50%;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) { 
+    .dataPickerBox{
+        .dataPicker{
+            width: 50%;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
+}

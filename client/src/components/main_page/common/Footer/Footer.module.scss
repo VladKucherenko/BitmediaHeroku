@@ -1,0 +1,142 @@
+@import './../../../../variables.scss';
+
+.svgFooter{
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+}
+.email_container{
+    background: #FFFFFF;
+    border: 3px solid #F1F1F1;
+    // display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin: 26px auto 44px;
+    min-width: max-content;
+    max-width: 35%;
+    height: 70px;
+    position: relative;
+    border-radius: 10px;
+} 
+.email_input{
+    vertical-align: middle;
+    float: left;
+    width: 60%;
+    border: none;
+    color: #1a1a1a;
+    padding: 20px;
+    ::placeholder{
+        color: #b9b9b9;
+    }
+    outline: none;
+}
+.email_send_btn{
+    width: 40%;
+    outline: none;
+    text-decoration: none;
+    background: #3a80ba;
+    border: none;
+    color: #fff;
+    padding: 17px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    background: linear-gradient(90.95deg, #255D8B 2.29%, #3A80BA 96.79%);
+    color: white;
+    padding: $primary-padding;
+    padding-bottom: 15px;
+    div:nth-child(1){
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: left;
+    }
+    div:nth-child(2){
+        font-size: 16px;
+        line-height: 142%;
+    }
+    div:nth-child(3){
+        text-align: right;
+        font-size: 16px;
+        line-height: 142%;
+    } 
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+    .email_container{
+        width: 95%;
+        padding: 4px;
+        height: 70px;
+        margin-left: 18px;
+        position: relative;
+        border-radius: 10px;
+    } 
+    .email_send_btn{
+        padding: 18px;
+    }
+    .email_input{
+        padding: 9px;
+    }
+    .svgFooter{
+        bottom: 90px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 449px) {
+    .svgFooter{
+        bottom: 90px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 539px){
+    .svgFooter{
+        bottom: 60px;
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 540px) and (max-width: 660px) { 
+    .svgFooter{
+        bottom: 60px;
+    }
+   
+}
+@media (min-width: 661px) and (max-width: 800px) { 
+    .svgFooter{
+        bottom: 40px;
+    }
+   
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+    .svgFooter{
+        bottom: 10px;
+    }
+    .footer{
+        text-align: center;
+        background: linear-gradient(90.95deg, #255D8B 2.29%, #3A80BA 96.79%);
+        color: white;
+        padding: 0px 10% 0px 10%;
+        padding-bottom: 0px;
+    }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 901px) and (max-width: 992px) { 
+   
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
+}

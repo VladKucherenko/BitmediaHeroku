@@ -1,0 +1,25 @@
+@import './../../../variables.scss';
+
+.logo{
+    background: #3A80BA;
+    color: white;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;//40px
+    line-height: 49px;
+    padding: $primary-padding;
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+    .logo{
+        font-size: 2rem;//40px
+    }
+ }
+@media (max-width: 576px) { 
+    .logo{
+        padding: $primary-padding-small;
+    }
+ }

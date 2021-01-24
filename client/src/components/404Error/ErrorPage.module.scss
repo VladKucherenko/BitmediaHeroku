@@ -1,0 +1,13 @@
+@import './../../variables.scss';
+
+.content{
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.error_message{
+    font-family: $primary-font;
+    font-size: 50px;
+}
+

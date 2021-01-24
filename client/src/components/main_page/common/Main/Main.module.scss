@@ -1,0 +1,225 @@
+@import './../../../../variables.scss';
+.container{
+    margin-top: 80px;
+    text-align: center;
+    height: 650px;
+}
+.title{
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+} 
+.bold{
+    font-weight: 600;
+}
+.description{
+    font-family: $primary-font;
+    padding-top: 2%;
+    color: #7E7E7E;
+    font-size: 20px;
+    line-height: 142%;
+    padding-bottom: 2%;
+}
+
+.grid_content{
+    padding: $primary-padding;
+    .grid{
+        
+        div.colomn{
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            margin: 2%;
+            width: 3.8rem;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+            border-radius: 32px;
+            div.description_griditem{
+                padding:  15% ;
+                b{
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+                div.description_gridtext{
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 142%;
+                    color: #7E7E7E;
+                    padding-top: 5%;
+                }
+            }
+        }
+        
+    }
+}
+
+.container{
+    height: 600px;
+}
+@media (min-width: 320px) and (max-width: 360px) {
+    
+    .container{
+        height: 1300px;
+    }
+}
+@media (min-width: 361px) and (max-width: 449px) {
+    .container{
+        height: 1300px;
+    }
+}
+
+
+@media (min-width: 450px) and (max-width: 660px ) { 
+    .description{
+        padding:5%;
+        
+    }
+    .grid_content{
+        padding: $primary-padding;
+        .grid{
+            
+            div.colomn{
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                margin: 2%;
+             
+                width: 3.8rem;
+                // height: 323px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+                border-radius: 32px;
+                div.description_griditem{
+                    padding: 5% ;
+                    b{
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 29px;
+                        
+                    }
+                    div.description_gridtext{
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 142%;
+                        color: #7E7E7E;
+                        padding-top: 5%;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    .container{
+        height: 1100px;
+    }
+
+}
+
+
+@media (min-width: 660px) and (max-width: 768px) { 
+    .description{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+    .grid_content{
+        padding: $primary-padding;
+        .grid{
+            
+            div.colomn{
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                margin: 2%;
+             
+                width: 3.8rem;
+                // height: 323px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+                border-radius: 32px;
+                div.description_griditem{
+                    padding: 3% ;
+                    b{
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 29px;
+                        
+                    }
+                    div.description_gridtext{
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 142%;
+                        color: #7E7E7E;
+                        padding-top: 2%;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    .container{
+        height: 1100px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) { 
+    .description{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+    .grid_content{
+        padding: $primary-padding;
+        .grid{
+            
+            div.colomn{
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                margin: 2%;
+             
+                width: 3.8rem;
+                // height: 323px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+                border-radius: 32px;
+                div.description_griditem{
+                    padding: 3% ;
+                    b{
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 29px;
+                        
+                    }
+                    div.description_gridtext{
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 142%;
+                        color: #7E7E7E;
+                        padding-top: 2%;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    .container{
+        height: 1100px;
+    }
+}
+

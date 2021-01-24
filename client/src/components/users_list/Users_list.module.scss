@@ -1,0 +1,313 @@
+@import './../../variables.scss';
+
+.breadcrams{
+    padding: $primary-padding;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    a{
+        color: #CCCCCC;
+    }
+    color: #3A80BA;
+}
+.title{
+    font-family: $primary-font;
+    padding: $primary-padding;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1A1A1A;
+}
+
+.usersTable{
+    padding: $primary-padding;
+    width: 80%;
+    margin: $primary-padding;
+    text-align: center;
+    thead{
+        background: #3A80BA;
+        color: white;
+        th{
+            padding: 10px;
+            border: 1px solid #FFFFFF;
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    td{
+        padding: 8px;
+        border-right: 1px solid #FFFFFF;
+        border-left: 1px solid #FFFFFF;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    td:nth-child(2), td:nth-child(3){
+        text-align: left;
+        padding-left: 15px;
+    }
+    tbody tr:nth-of-type(odd) {
+        background-color: #FBFBFB;
+    }
+    tbody tr:nth-of-type(even) {
+        background-color:#F1F1F1;
+    }
+    a{
+        color: #1A1A1A;
+    }
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+.pagination{
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 321px){
+    .table_container{
+        height: 53vh;
+    }
+    .breadcrams{
+        padding: $primary-padding-small;
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .title{
+        padding: $primary-padding-small;
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .usersTable{
+        padding: 5px;
+        width: 85%;
+        margin: 5px;
+        thead{
+            th{
+                padding: 0.4%;
+                font-size: 0.39rem;
+                line-height: 12px;
+            }
+        }
+        td{
+            padding: 0.4%;
+            font-size: 0.39rem;
+            line-height: 12px;
+        }
+        td:nth-child(2), td:nth-child(3){
+            padding-left: 2%;
+        }
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .pagination{
+        text-align: center;
+        padding: 10px 0 10px 0;
+        // padding-bottom: 20px;
+            
+        }
+}
+
+@media (min-width: 322px) and (max-width: 480px) { 
+    .table_container{
+        height: 62vh;
+    }
+    .breadcrams{
+        padding: $primary-padding-small;
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .title{
+        padding: $primary-padding-small;
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .usersTable{
+        padding: $primary-padding-small;
+        width: 85%;
+        margin: $primary-padding-small;
+        thead{
+            th{
+                padding: 0.5%;
+                font-size: 0.4rem;
+                line-height: 12px;
+            }
+        }
+        td{
+            padding: 0.5%;
+            font-size: 0.4rem;
+            line-height: 12px;
+        }
+        td:nth-child(2), td:nth-child(3){
+            padding-left: 2%;
+        }
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .pagination{
+        text-align: center;
+        padding: 10px 0 10px 0;
+        // padding-bottom: 20px;
+            
+        }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 481px) and (max-width: 576px ) { 
+    .table_container{
+        height: 68vh;
+    }
+    .breadcrams{
+        padding: $primary-padding-small;
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .title{
+        padding: $primary-padding-small;
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .usersTable{
+        padding: $primary-padding-small;
+        width: 85%;
+        margin: $primary-padding-small;
+        thead{
+            th{
+                padding: 4px;
+                font-size: 8px;
+                line-height: 12px;
+            }
+        }
+        td{
+            padding: 3px;
+            font-size: 8px;
+            line-height: 12px;
+        }
+        td:nth-child(2), td:nth-child(3){
+            padding-left: 2%;
+        }
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+   
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) { 
+    .usersTable{
+        // padding: 5px;
+        // width: 90%;
+        // margin: 5px;
+        padding: $primary-padding-small;
+        width: 80%;
+        margin: $primary-padding-small;
+        thead{
+            th{
+                padding: 10px;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+        td{
+            padding: 10px;
+            font-size: 10px;
+            line-height: 12px;
+        }
+        td:nth-child(2), td:nth-child(3){
+            padding-left: 2%;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) { 
+    .table_container{
+        height: 68vh;
+    }
+    .breadcrams{
+        padding: $primary-padding-small;
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .title{
+        padding: $primary-padding-small;
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .usersTable{
+        padding: $primary-padding-small;
+        width: 85%;
+        margin: $primary-padding-small;
+        thead{
+            th{
+                padding: 4px;
+                font-size: 8px;
+                line-height: 12px;
+            }
+        }
+        td{
+            padding: 3px;
+            font-size: 8px;
+            line-height: 12px;
+        }
+        td:nth-child(2), td:nth-child(3){
+            padding-left: 2%;
+        }
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) { 
+    .table_container{
+        height: 68vh;
+    }
+    .breadcrams{
+        padding: $primary-padding-small;
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .title{
+        padding: $primary-padding-small;
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .usersTable{
+        padding: $primary-padding-small;
+        width: 85%;
+        margin: $primary-padding-small;
+        thead{
+            th{
+                padding: 9px;
+                font-size: 12px;
+                line-height: 12px;
+            }
+        }
+        td{
+            padding: 9px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        td:nth-child(2), td:nth-child(3){
+            padding-left: 2%;
+        }
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
+}
